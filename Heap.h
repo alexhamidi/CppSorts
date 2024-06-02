@@ -17,7 +17,6 @@ int* heapSort(int* heap, int size) {
     }
     
     return heap;
-    
 }
 
 void reheapUp (int* heap, int root, int bottom) { //absolute top root; relative bottom
