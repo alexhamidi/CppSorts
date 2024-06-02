@@ -17,7 +17,7 @@ int* radixSort(int* arr, int size) {
     return arr;
 }
 
-void insert(int* arr, int size, int p) { // p gets 1, 10, 100
+void insert(int* arr, int size, int p) {
     int output[size];
     int count[10] = {0};
     for (int i = 0; i < size; i++) {
@@ -40,11 +40,3 @@ void insert(int* arr, int size, int p) { // p gets 1, 10, 100
 
 
 #endif /* Radix_h */
-/*
- {124, 211, 413, 646, 984};
-before f2 pass:
-[0, 1, 0, 1, 2, 0, 1, 0, 0, 0]
-
-after f2 pass:
-[0, 1, 1, 2, 4, 4, 5, 0, 0, 0]
-*/
